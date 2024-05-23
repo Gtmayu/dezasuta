@@ -2,6 +2,7 @@
 
 body {
     max-width: 960px;
+    margin: 0 auto;
     background: #eeeeee;
 }
 
@@ -10,10 +11,16 @@ h1 {
     color: rgb(8, 130, 114);
 }
 
-main {
-    max-width: 960px;
+section {
     margin: 10px;
+}
+
+ul {
     display: flex;
+}
+div {
+    margin: 20px;
+    background-color: white;
 }
 
 h2 {
@@ -22,18 +29,12 @@ h2 {
     color: rgb(8, 130, 114);
 }
 
-div {
-    margin: 20px;
-    background-color: white;
-    justify-content: space-around;
-}
-
 p {
     margin: 10px;
 }
 
 @media screen and (max-width: 399px) {
-    main {
+    ul {
         flex-direction: column;
     }
 }
