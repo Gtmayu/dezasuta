@@ -31,33 +31,41 @@ main img {
     /* margin-left: calc(50% - 50vw); */
 }
 
+.About {
+    text-align: center;
+}
+
 .sectionabout {
+    margin: 10px;
     display: inline-block;
     border-bottom: 1px solid black;
 }
 
 .sectionvisual {
+    margin: 50px;
     display: flex;
     justify-content: center;
 }
 .sectionvisual img {
     height: 150px;
-    margin: 50px;
+    margin: 50px 50px 50px 100px;
     border-radius: 50%;
 }
 .sectionvisual div {
     margin: 30px;
+    text-align: left;
 }
 
+.Bicycle {
+    text-align: center;
+}
 .sectionBicycle {
     display: inline-block;
-    text-align: center;
     border-bottom: 1px solid black;
 }
 
 .listbicycle {
     display: flex;
-    text-align: center;
 }
 .listbicycle li {
     margin: 10px;
