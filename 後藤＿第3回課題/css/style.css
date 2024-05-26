@@ -18,7 +18,7 @@ section {
 ul {
     display: flex;
 }
-div {
+li {
     margin: 20px;
     background-color: white;
 }
