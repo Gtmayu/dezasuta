@@ -190,25 +190,29 @@ main {
 }
 
 /* ギャラリー */
-.EVENT {
-    margin-top: 72px;
-}
+
 .GALLERY {
-    max-width: 1900px;
+    max-width: 100%;
     margin: 0 auto;
 }
+
 .gallery_logo {
     width: 245px;
     height: 78px;
 }
 
 .gallery_sliders img {
+    max-width: 100%;
+    width: 20%;
     float: inline-start;
-    width: 384px;
-    height: 300px;
+    object-fit: cover;
 }
 
 /* イベント */
+.EVENT {
+    margin-top: 72px;
+}
+
 .event_logo {
     width: 174px;
     height: 78px;
@@ -223,6 +227,7 @@ main {
 .EVENT li {
     display: flex;
 }
+
 .event_text {
     text-decoration: underline;
 }
@@ -231,6 +236,7 @@ main {
 .ACCESS {
     margin-top: 80px;
 }
+
 .access_logo {
     width: 213px;
     height: 78px;
