@@ -1,7 +1,8 @@
 @charset "utf-8";
 
-body {
+main {
     max-width: 960px;
+    margin: 0 auto;
     padding: 4%;
 }
 header {
@@ -23,10 +24,11 @@ nav li {
     padding: 5px;
 }
 
-main img {
+.mainvisual {
     width: 100%;
     height: 600px;
     object-fit: cover;
+    margin-bottom: 200px;
     /* margin-right: calc(50% - 50vw); */
     /* margin-left: calc(50% - 50vw); */
 }
@@ -42,17 +44,19 @@ main img {
 }
 
 .sectionvisual {
-    margin: 50px;
+    margin: 10px 30px 0 30px;
     display: flex;
     justify-content: center;
 }
 .sectionvisual img {
+    width: 150px;
     height: 150px;
-    margin: 50px 50px 50px 100px;
+    margin: 50px 0 50px 100px;
     border-radius: 50%;
 }
 .sectionvisual div {
     margin: 30px;
+    padding: 20px;
     text-align: left;
 }
 
