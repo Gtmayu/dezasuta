@@ -1,11 +1,4 @@
 @charset "utf-8";
-
-@charset "utf-8";
-
-/* cssリセット */
-
-/*利用するタグによってこちらの内容は増やす*/
-
 html,
 body,
 h1,
@@ -54,7 +47,7 @@ img {
 body {
     max-width: 1900px;
     margin: 0 auto;
-    background-color: bisque;
+    background-color: #e8d9bf;
 }
 
 header {
@@ -122,9 +115,14 @@ main {
 }
 
 /* ABOUT US */
-.ABOUT {
+.about {
     margin-top: 89px;
     display: flex;
+    justify-content: space-between;
+}
+
+.about_coffee {
+    width: 50%;
 }
 
 .about_coffee img {
@@ -135,6 +133,9 @@ main {
     object-fit: cover;
 }
 
+.about_section {
+    width: 40%;
+}
 .about_logo {
     width: 272px;
     height: 77px;
@@ -161,7 +162,7 @@ main {
 
 .menu_logo {
     width: 151px;
-    height: 78px;
+    margin: 0 auto;
 }
 
 .menu_list {
@@ -170,11 +171,15 @@ main {
     gap: 50px;
 }
 
+.menu li {
+    width: 30%;
+}
+
 .menu_list img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
     border-radius: 0 42px 0 0;
 }
+
 .menu_list h3 {
     font-size: 38px;
     color: #d30202;
@@ -182,8 +187,7 @@ main {
     padding-left: 13px;
 }
 
-.menu_list div {
-    width: 300px;
+.menu_list p {
     margin: 20px 0 57px 0;
     font-size: 17px;
     line-height: 1.5;
@@ -191,7 +195,7 @@ main {
 
 /* ギャラリー */
 
-.GALLERY {
+.gallery {
     max-width: 100%;
     margin: 0 auto;
 }
@@ -199,45 +203,105 @@ main {
 .gallery_logo {
     width: 245px;
     height: 78px;
+    margin: 0 auto;
+}
+
+.gallery_sliders {
+    margin-top: 26px;
+    display: flex;
 }
 
 .gallery_sliders img {
     max-width: 100%;
-    width: 20%;
-    float: inline-start;
     object-fit: cover;
 }
 
 /* イベント */
-.EVENT {
+.event {
     margin-top: 72px;
 }
 
 .event_logo {
     width: 174px;
     height: 78px;
+    margin: 0 auto;
 }
 
-.EVENT ul {
+.event ul {
+    margin-top: 40px;
+    padding: 4% 16% 4% 16%;
     border: 4px solid #4f260b;
     background-color: #fff;
-    /* 1000px 20px 1000px 20px  */
 }
 
-.EVENT li {
+.event li {
     display: flex;
+    padding-bottom: 2%;
 }
 
+.event_day {
+    font-size: 21px;
+    line-height: 2;
+}
 .event_text {
+    padding-left: 4%;
+    font-size: 23px;
+    line-height: 2;
     text-decoration: underline;
 }
 
 /* アクセス */
-.ACCESS {
+.access {
     margin-top: 80px;
 }
 
 .access_logo {
     width: 213px;
-    height: 78px;
+    margin: 0 auto;
+}
+
+.access_map iframe {
+    width: 100%;
+    height: 470px;
+    display: block;
+    margin-top: 48px;
+}
+
+/* フッター */
+footer {
+    height: 393px;
+    background-color: #fff;
+}
+
+.footer {
+    padding-top: 82px;
+    display: flex;
+    gap: 68px;
+}
+.footer_logo {
+    width: 227px;
+    height: 50px;
+}
+
+.info {
+    flex-direction: column;
+}
+.info p {
+    color: black;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.copyright {
+    padding-top: 77px;
+    text-align: center;
+    flex-direction: row;
+    color: black;
+}
+
+.pagetop img {
+    width: 125px;
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
 }
