@@ -18,6 +18,7 @@ li {
     font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3",
         "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
         "ＭＳ 明朝", serif;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -54,7 +55,7 @@ header {
     position: relative;
 }
 
-main {
+.container {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 10px 0 10px;
@@ -105,7 +106,7 @@ main {
 
 .copy2 {
     font-size: 82px;
-    padding: 52px;
+    padding: 52px 0;
     line-height: 1.17;
 }
 
@@ -274,6 +275,8 @@ footer {
 }
 
 .footer {
+    max-width: 1000px;
+    margin: 0 auto;
     padding-top: 82px;
     display: flex;
     gap: 68px;
