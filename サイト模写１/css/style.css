@@ -30,9 +30,9 @@ nav li {
     object-fit: cover;
 }
 
+/* About */
 .about {
     margin: 30px;
-    padding: 0 70px 10px 70px;
     text-align: center;
     justify-content: center;
 }
@@ -45,6 +45,7 @@ nav li {
 
 .about_prof {
     padding-top: 40px;
+    gap: 40px;
     display: flex;
     justify-content: center;
 }
@@ -56,16 +57,21 @@ nav li {
 }
 
 .about_prof div {
-    padding-left: 50px;
     text-align: left;
 }
 
+.about_text h3 {
+    padding-bottom: 20px;
+}
+
+/* Bicycle */
 .bicycle {
     margin-top: 50px;
     text-align: center;
 }
 
 .bicycle_head {
+    margin-bottom: 30px;
     display: inline-block;
     font-size: xx-large;
     border-bottom: 1px solid black;
@@ -76,6 +82,10 @@ nav li {
 }
 .bicycle_list li {
     margin: 10px;
+}
+
+.bicycle_title {
+    margin: 20px 0 20px 0;
 }
 
 footer {
