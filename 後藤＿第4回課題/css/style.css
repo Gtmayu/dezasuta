@@ -220,6 +220,12 @@ header {
     display: none;
 }
 
+@media screen and (max-width: 878px) {
+    .copy2 {
+        font-size: 70px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .catch_copy {
         margin-top: 41px;
@@ -246,6 +252,8 @@ header {
 
 /* ABOUT US */
 .about {
+    max-width: 1000px;
+    margin: 0 auto;
     margin-top: 89px;
     display: flex;
     justify-content: space-between;
@@ -257,7 +265,6 @@ header {
 
 .about_coffee img {
     width: 500px;
-    height: 560px;
     margin: 0 80px 0 0;
     border-radius: 0 0 82px 0;
     object-fit: cover;
@@ -265,7 +272,9 @@ header {
 
 .about_section {
     width: 40%;
+    padding: 2%;
 }
+
 .about_logo {
     width: 272px;
     height: 77px;
@@ -279,10 +288,20 @@ header {
 }
 
 .about_text {
-    width: 410px;
-    height: 205px;
     font-size: 16px;
     line-height: 1.6;
+}
+
+@media screen and (max-width: 1040px) {
+    .about_top {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .about_top {
+        font-size: 28px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -290,31 +309,33 @@ header {
         flex-direction: column;
     }
 
-    .about_coffee source {
-        width: 375px;
+    .about_coffee img {
+        width: 100%;
         margin: 0 auto;
+        padding-top: 15px;
+        border-radius: initial;
     }
 
     .about_section {
         width: 100%;
+        display: contents;
     }
 
     .about_logo {
         width: 160px;
         height: 45px;
         margin: 0 auto;
+        order: -1;
     }
 
     .about_top {
         font-size: 36px;
         line-height: 1.3;
-        margin: 0 auto;
+        padding-left: 19px;
         margin-bottom: 32px;
     }
 
     .about_text {
-        width: 410px;
-        height: 205px;
         margin: 0 auto;
         font-size: 16px;
         line-height: 1.8;
@@ -363,6 +384,8 @@ header {
 @media screen and (max-width: 767px) {
     .menu {
         margin-top: 56px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
     .menu_logo {
@@ -375,9 +398,8 @@ header {
         gap: 59px;
     }
 
-    .menu_list source {
-        width: 300px;
-        height: 200px;
+    .menu_list li {
+        width: 90%;
     }
 
     .menu_list h3 {
@@ -387,6 +409,7 @@ header {
 
     .menu_list p {
         margin: 33px 0 60px 0;
+        padding-left: 13px;
         font-size: 17px;
         line-height: 1.5;
     }
