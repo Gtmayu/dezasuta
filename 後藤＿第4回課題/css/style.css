@@ -58,7 +58,7 @@ header {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 0 10px 0 10px;
+    padding: 0 2% 0 2%;
     justify-content: center;
 }
 
@@ -349,7 +349,7 @@ header {
         font-size: 36px;
         line-height: 1.3;
         padding-top: 37px;
-        padding-left: 19px;
+        padding-left: 3%;
         margin-bottom: 32px;
     }
 
@@ -479,6 +479,34 @@ header {
         margin: 0 auto;
         display: block;
     }
+}
+
+/* ギャラリースライダー */
+.slick-prev {
+    left: 20%;
+    z-index: 99;
+}
+
+.slick-next {
+    right: 20%;
+}
+
+.slick-prev:before {
+    content: "";
+    display: block;
+    height: 15px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(-135deg);
+}
+
+.slick-next:before {
+    content: "";
+    display: block;
+    height: 15px;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
 }
 
 /* イベント */
