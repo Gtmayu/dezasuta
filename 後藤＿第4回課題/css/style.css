@@ -509,6 +509,10 @@ header {
     transform: rotate(45deg);
 }
 
+.lb-data .lb-number {
+    display: none !important;
+}
+
 /* イベント */
 .event {
     margin-top: 72px;
